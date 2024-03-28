@@ -1,0 +1,27 @@
+@media(max-width: 768px) {
+    .navbar {
+        width: 98%;
+        &_logo {
+            &_img {
+                width: 7rem;
+            }
+        }
+        
+    }
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+
+    &_logo {
+        &_img {
+            width: 10rem;
+        }
+    }
+
+       }
+
